@@ -8,7 +8,7 @@ describe('UstreamStrategy', function() {
     clientID: 'ABC123',
     clientSecret: 'secret'
   }, function() {
-    // place holder 
+    // place holder
   });
 
   it('should be named ustream', function(done) {
