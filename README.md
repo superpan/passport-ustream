@@ -7,7 +7,7 @@ passport oath2.0 plugin for ustream
 
 ## Install
 ```
-npm install passport-ustram
+npm install passport-ustream
 ```
 
 ## Usage
