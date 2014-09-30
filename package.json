@@ -4,7 +4,7 @@
   "description": "passport plugin for ustream oath2",
   "main": "index.js",
   "scripts": {
-    "test": "alias gulp='node_modules/gulp/bin/gulp.js';gulp lint && gulp test-func",
+    "test": "alias gulp='node_modules/gulp/bin/gulp.js';gulp lint && gulp test",
     "beautify": "node_modules/gulp/bin/gulp.js beautify --write"
   },
   "author": "Lei Pan (https://github.com/superpan)",
