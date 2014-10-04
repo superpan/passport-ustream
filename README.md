@@ -15,9 +15,10 @@ npm install passport-ustream
 ####Configure Strategy
 
 ```
-passport.use(new RedditStrategy({
+var UstreamStrategy = require('passport-ustream').Strategy;
+
+passport.use(new UstreamStrategy({
     clientID: 'ABC123',
-    clientSecret: 'secret',
     callbackURL: "http://127.0.0.1:3000/auth/ustream/callback"
   },
   function(accessToken, refreshToken, profile, done) {
