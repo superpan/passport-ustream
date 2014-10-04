@@ -1,6 +1,6 @@
 {
   "name": "passport-ustream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "passport plugin for ustream oath2",
   "main": "index.js",
   "scripts": {
